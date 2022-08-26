@@ -111,14 +111,14 @@
 
 .creativity-content h1 {
     font-size: 100px;
-    color: #ffffff;
-    -webkit-text-stroke: 0.1px #918c89;
+    color: transparent;
+    -webkit-text-stroke: 1px #918c89;
     line-height: 0.9;
 }
 
 .dash {
-    color: #ffffff !important;
-    -webkit-text-stroke: 0.1px #918c89 !important;
+    color: transparent !important;
+    -webkit-text-stroke: 1px #918c89 !important;
     margin: 0 !important;
 }
 
