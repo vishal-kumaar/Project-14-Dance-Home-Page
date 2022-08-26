@@ -26,7 +26,7 @@ This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript
     👉 -webkit text stroke CSS property.
     👉 How to use SVG images.
 
-## I took 3 hours to complete this project and I really enjoyed it 😊.
+## I took 6 hours to complete this project and I really enjoyed it 😊.
 
 ## 💬 Connect With Me
 

@@ -85,6 +85,11 @@
     color: #000000;
 }
 
+.ham-burger {
+    width: 1.6rem;
+    display: none;
+}
+
 
 /* Creativity Sub-Section */
 
@@ -109,6 +114,12 @@
     color: transparent;
     -webkit-text-stroke: 0.1px #918c89;
     line-height: 0.9;
+}
+
+.dash {
+    color: transparent !important;
+    -webkit-text-stroke: 0.1px #918c89 !important;
+    margin: 0 !important;
 }
 
 .creativity-content h1 span {
@@ -240,4 +251,159 @@
     display: block;
     width: 100%;
     height: 155px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:1050px) {
+    .container {
+        flex-direction: column;
+    }
+    .content-left {
+        width: 100vw;
+        height: 80vh;
+    }
+    .content-right {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .creativity-top {
+        flex-direction: column-reverse;
+    }
+    .list-item {
+        font-size: 12px;
+    }
+    .social-media {
+        flex-direction: row;
+        height: initial;
+        justify-content: space-between;
+        width: 50%;
+        margin: 2rem 0;
+    }
+    .social-media img {
+        width: 15px;
+    }
+    .creativity-content h1 {
+        font-size: 65px;
+    }
+    .creativity-content p {
+        font-size: 19px;
+    }
+    .btn {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .skills {
+        flex-direction: column-reverse;
+    }
+    .dance-content h1 {
+        font-size: 40px;
+    }
+    .dance-content p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    #hero-small {
+        margin-bottom: 2rem;
+    }
+    .arrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #logo {
+        width: 75px;
+        height: 25px;
+        top: 30px;
+        left: 30px;
+    }
+    .creativity-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .creativity-content h1 {
+        margin-bottom: 1rem;
+    }
+    .creativity-content h1 span {
+        margin: 0;
+    }
+    .dash {
+        display: none;
+    }
+    .creativity-content p {
+        margin-left: 0;
+    }
+    .creativity-content br {
+        display: none;
+    }
+    .creativity-bottom {
+        justify-content: center;
+    }
+    .skills {
+        width: 100%;
+        margin: auto;
+    }
+    .dance-content {
+        width: initial;
+    }
+    #hero-small {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .content-right {
+        padding: 40px 5% 0 5%;
+    }
+    .line {
+        display: none;
+    }
+    .list-item {
+        font-size: 11px;
+    }
+    .creativity-content h1 {
+        font-size: 45px;
+    }
+    .creativity-content p {
+        font-size: 15px;
+    }
+    .social-media {
+        width: 70%;
+    }
+    .social-media img {
+        width: 13px;
+        height: 13px;
+    }
+    .btn {
+        padding: 8px 18px;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    .skills-list li {
+        margin-bottom: 28px;
+        font-size: 12px;
+    }
+    .skills-list li::before {
+        width: 9px;
+        height: 9px;
+        top: 3px;
+    }
+    .active-list::before {
+        width: 11px !important;
+        height: 11px !important;
+        left: -31px !important;
+    }
+    .vertical-line {
+        height: 220px;
+    }
+    .dance-content h1 {
+        font-size: 35px;
+    }
+    .dance-content p {
+        font-size: 11px;
+    }
 }
